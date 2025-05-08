@@ -1,0 +1,42 @@
+.movie-card {
+    background: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .movie-info {
+    padding: 0.5rem;
+    color: var(--text-color);
+  }
+  
+  .movie-info h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  .movie-info p {
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+
+  .fav-btn {
+    background: transparent;
+    border: none;
+    color: var(--accent-color);
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
+  
