@@ -1,0 +1,33 @@
+/* src/components/MovieGrid.css */
+
+.movie-grid-container {
+    padding: 2rem;
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .load-more-btn {
+    background-color: var(--accent-color);
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .load-more-btn:hover {
+    background-color: #ff3d00;
+  }
+  
